@@ -21,7 +21,7 @@ jobs:
     - uses: actions/checkout@v2
     - name: Run Prisma Cloud 
       id: Prisma
-      uses: bridgecrewio/checkov-action@test-all-files
+      uses: bridgecrewio/checkov-action@master
       env:
           PRISMA_API_URL: ${{ secrets.API_URL }}
       with:
