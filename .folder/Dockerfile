@@ -1,0 +1,3 @@
+FROM base:1
+ENV aws_access_key=AKIA4NACSIJMDDNSEDT7
+USER bob
